@@ -12,7 +12,7 @@ app.use(bodyParser.json())
 
 app.use(express.static('public'))
 
-app.get('/api', function(req,res,next{
+app.get('/api', function(req,res,next){
   res.status(200).send('hello from API')
 }))
 
